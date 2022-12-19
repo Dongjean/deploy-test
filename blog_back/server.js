@@ -28,4 +28,6 @@ app.get('/*', (req, res) => {
     res.sendFile(path.resolve(__dirname, '../blog_front/build', 'index.html'));
 });
 
-app.listen(3001);
+app.listen(3001, () => {
+    console.log('Server Listening on port 3001')
+});
