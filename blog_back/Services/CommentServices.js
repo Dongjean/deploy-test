@@ -7,12 +7,12 @@ async function GetCommentsServicer(Data) {
 
     //connect to DB
     const client = new Client({
-        user: 'postgres',
+        user: 'dongjin',
         database: 'blogserver',
-        password: 'sdj20041229',
+        password: 'iGmHMDcTQxdlLNPAA3EDSQJVpG22XmcC',
         port: 5432,
-        host: 'localhost',
-      })
+        host: 'dpg-ceg87q4gqg4b3hd2g620-a',
+    })
     client.connect();
 
     try {
@@ -31,12 +31,12 @@ async function AddCommentServicer(Data) {
     var CommentID = 1;
     //connecting to DB
     const client = new Client({
-        user: 'postgres',
+        user: 'dongjin',
         database: 'blogserver',
-        password: 'sdj20041229',
+        password: 'iGmHMDcTQxdlLNPAA3EDSQJVpG22XmcC',
         port: 5432,
-        host: 'localhost',
-      })
+        host: 'dpg-ceg87q4gqg4b3hd2g620-a',
+    })
     client.connect();
 
     try {
@@ -69,12 +69,12 @@ async function DeleteCommentServicer(Data) {
 
     //connecting to DB
     const client = new Client({
-        user: 'postgres',
+        user: 'dongjin',
         database: 'blogserver',
-        password: 'sdj20041229',
+        password: 'iGmHMDcTQxdlLNPAA3EDSQJVpG22XmcC',
         port: 5432,
-        host: 'localhost',
-      })
+        host: 'dpg-ceg87q4gqg4b3hd2g620-a',
+    })
     client.connect();
 
     try {

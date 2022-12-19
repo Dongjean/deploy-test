@@ -7,12 +7,12 @@ async function AddPost(Title, PostText, ImageName, ImageDir, AuthorUsername, Pos
     var PostID = 1;
     //connecting to DB
     const client = new Client({
-        user: 'postgres',
+        user: 'dongjin',
         database: 'blogserver',
-        password: 'sdj20041229',
+        password: 'iGmHMDcTQxdlLNPAA3EDSQJVpG22XmcC',
         port: 5432,
-        host: 'localhost',
-      })
+        host: 'dpg-ceg87q4gqg4b3hd2g620-a',
+    })
     client.connect();
 
     try {
@@ -122,11 +122,11 @@ async function GetBlogs(Data) {
 
     //connect to DB
     const client = new Client({
-        user: 'postgres',
+        user: 'dongjin',
         database: 'blogserver',
-        password: 'sdj20041229',
+        password: 'iGmHMDcTQxdlLNPAA3EDSQJVpG22XmcC',
         port: 5432,
-        host: 'localhost',
+        host: 'dpg-ceg87q4gqg4b3hd2g620-a',
     })
     client.connect();
 
@@ -159,12 +159,12 @@ async function DeleteBlogServicer(Data) {
 
     //connect to DB
     const client = new Client({
-        user: 'postgres',
+        user: 'dongjin',
         database: 'blogserver',
-        password: 'sdj20041229',
+        password: 'iGmHMDcTQxdlLNPAA3EDSQJVpG22XmcC',
         port: 5432,
-        host: 'localhost',
-      })
+        host: 'dpg-ceg87q4gqg4b3hd2g620-a',
+    })
     client.connect();
 
     //get PostID to Delete
@@ -197,12 +197,12 @@ async function UpdateBlogServicer(Data, Image) {
 
     //connecting to DB
     const client = new Client({
-        user: 'postgres',
+        user: 'dongjin',
         database: 'blogserver',
-        password: 'sdj20041229',
+        password: 'iGmHMDcTQxdlLNPAA3EDSQJVpG22XmcC',
         port: 5432,
-        host: 'localhost',
-      })
+        host: 'dpg-ceg87q4gqg4b3hd2g620-a',
+    })
     client.connect();
 
     //get extension of the image file
